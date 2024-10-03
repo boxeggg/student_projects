@@ -4,7 +4,7 @@
 
 
 TEST(mojagrupatestow, mojtest) {
-   #TODO: tu napisz test
+   
 }
 
 TEST(mojagrupatestow, mojtest) {
@@ -12,11 +12,11 @@ TEST(mojagrupatestow, mojtest) {
 }
 
 TEST(mojagrupatestow, mojtest) {
-   #TODO: tu napisz test
+   
 }
 
 
-// ... inne testy ...
+
 
 int main(int argc, char **argv) {
     ::testing::InitGoogleTest(&argc, argv);

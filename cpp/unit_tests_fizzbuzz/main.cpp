@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    #TODO: tu napisz program
+    FizzBuzz(20);
     return 0;
 }
 
