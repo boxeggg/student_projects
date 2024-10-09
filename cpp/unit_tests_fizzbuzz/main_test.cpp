@@ -3,17 +3,21 @@
 #include "functions.cpp"
 
 
-TEST(mojagrupatestow, mojtest) {
-   
+TEST(FizzBuzzTest, Fizz) {
+   string result = FizzBuzz(3);
+   EXPECT_EQ(result, "Fizz");
 }
 
-TEST(mojagrupatestow, mojtest) {
-   #TODO: tu napisz test
+TEST(FizzBuzzTest, Buzz) {
+   string result = FizzBuzz(5);
+   EXPECT_EQ(result, "Buzz");
 }
 
-TEST(mojagrupatestow, mojtest) {
-   
+TEST(FizzBuzzTest, FizzBuzz) {
+   string result = FizzBuzz(15);
+   EXPECT_EQ(result, "FizzBuzz");
 }
+
 
 
 
