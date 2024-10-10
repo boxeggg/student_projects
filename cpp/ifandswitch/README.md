@@ -13,6 +13,12 @@ Każdy test mierzy czas potrzebny do wykonania jednej z poniższych struktur war
 
 Wszystkie testy są uruchamiane przy użyciu GoogleTest i mierzą czas wykonywania przy pomocy (`std::chrono::high_resolution_clock`).
 
+### Platforma testowa
+- C++ w Wersji 11.4.0
+- System ubuntu 11.4.0
+- Oracle VirtualBox
+- Intel i3 10100
+
 ## Wyniki
 
 | Struktura            | Czas (s) |
