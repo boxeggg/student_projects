@@ -12,6 +12,11 @@ Testy składają się z dwóch głównych bloków:
 ### Cel:
 Celem tego testu jest zmierzenie czasu wykonania algorytmu Quick Sort na wektorze o wielkości 10,000 elementów.
 
+### Platforma testowa
+- C++ w Wersji 11.4.0
+- System ubuntu 11.4.0
+- Oracle VirtualBox
+- Intel i3 10100
 ### Kroki:
 1. Inicjalizacja wektora `vec` o rozmiarze 10,000.
 2. Wypełnienie wektora losowymi wartościami przy użyciu funkcji `std::generate` oraz generatora `std::rand()`.
@@ -19,6 +24,12 @@ Celem tego testu jest zmierzenie czasu wykonania algorytmu Quick Sort na wektorz
 4. Wywołanie funkcji `quickSort` na wektorze.
 5. Zakończenie pomiaru czasu oraz obliczenie upływu czasu.
 6. Wyświetlenie wyniku w sekundach.
+
+### Przykładowe wyniki
+| Algorytm    | Czas wykonania   |
+|-------------|------------------|
+| Quicksort   | 0.00201641 s     |
+| Bubblesort  | 0.669605 s       |
 
 ## Kod źródłowy
 
