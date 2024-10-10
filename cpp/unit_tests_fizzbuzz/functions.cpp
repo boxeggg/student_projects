@@ -5,13 +5,13 @@ string FizzBuzz(int n){
 for(int i=1; i<=n; i++){
 
 if(i%3 == 0 && i%5 == 0){
-std::cout<<"Fizz Buzz"<<std::endl;
+	return("FizzBuzz");
 }
 if(i%3 == 0){
-std::cout<<"Fizz"<<std::endl;
+	return("Fizz");
 }
 if(i%5 == 0){
-std::cout<<"Buzz"<<std::endl;
+	return("Buzz");
 }
 
 }

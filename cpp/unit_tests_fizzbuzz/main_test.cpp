@@ -3,20 +3,21 @@
 #include "functions.cpp"
 
 
-TEST(FizzBuzzTest, Fizz) {
+TEST(FizzBuzzTest,  DivisbleBy3) {
    string result = FizzBuzz(3);
    EXPECT_EQ(result, "Fizz");
 }
 
-TEST(FizzBuzzTest, Buzz) {
+TEST(FizzBuzzTest, DivisibleBy5) {
    string result = FizzBuzz(5);
    EXPECT_EQ(result, "Buzz");
 }
 
-TEST(FizzBuzzTest, FizzBuzz) {
+TEST(FizzBuzzTest, DivisibleBy15) {
    string result = FizzBuzz(15);
    EXPECT_EQ(result, "FizzBuzz");
 }
+
 
 
 
