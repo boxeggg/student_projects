@@ -31,6 +31,15 @@ Projekt ma na celu obliczenie maksymalnej długości pojedynczego schodka na pod
 - **klatka.h**: Klasa reprezentująca klatke schodową
 - **kreator_klatek.h**: Klasa tworząca i zarządzająca instancjami klatek schodowych
 
+
+## Założenia algorytmu
+- Tworzona jest pusta instancja generatora klatek
+- Na zawołanie użytkownika po podaniu parametrow wejsciowcyh (Z aplikacji konsolowej, lub desktopowej ) tworzy się instancja klatki
+- Klatka dopisuje się do tablicy vectorwoej klatek
+- Wypisują się wyniki (W aplikacji konsolowej)
+- Możliwość sprawdzenia historii klatek schodowych poprzez tablice klatek schodowych
+
+
 # Dokumentacja klas projektu
 
 ## Klasa `Klatka`
