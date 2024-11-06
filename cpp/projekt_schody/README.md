@@ -16,7 +16,7 @@ Projekt ma na celu obliczenie maksymalnej długości pojedynczego schodka na pod
 
 ## Wartości przyjęte w projekcie
  **Maskymalna wysokość stopnia**:
-   - Minimalna wysokość stopnia przyjęta w projekcie to **18 cm**, co zapewnia optymalne nachylenie i ułatwia poruszanie się po schodach.
+- Maksymalna wysokość stopnia przyjęta w projekcie to **18 cm**, co zapewnia optymalne nachylenie i ułatwia poruszanie się po schodach.
 
 ## Struktura projektu
 - **main.cpp**: Plik główny główną funkcję programu.
