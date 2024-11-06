@@ -42,11 +42,14 @@ Klasa `Klatka` reprezentuje klatkę schodową i przechowuje informacje na temat 
 ### Pola
 - `double dlugosc`: Przechowuje całkowitą długość klatki schodowej.
 - `double wysokosc`: Przechowuje całkowitą wysokość klatki schodowej.
+- `double szerokosc`: Przechowuje szerokosc klatki schodowej.
 
 ### Metody
-- **Konstruktor** `Klatka(double dlugosc, double wysokosc)`: Inicjalizuje obiekt `Klatka` z podaną długością i wysokością klatki schodowej.
-- `double obliczMaxDlugoscSchodka() const`: Oblicza i zwraca maksymalną długość schodka na podstawie długości i wysokości klatki, wykorzystując twierdzenie Pitagorasa.
-- `void wyswietlInformacje() const`: Wyświetla informacje o klatce schodowej, w tym długość, wysokość i maksymalną długość schodka.
+- **Konstruktor** `Klatka(double dlugosc, double wysokosc double szerokosc)`: Inicjalizuje obiekt `Klatka` z podaną długością i wysokością klatki schodowej.
+- `double getGlebokoscSchodka() const`: Zwraca max głębokość schodka.
+- `double getWysokoscStopnia`: Zwraca wysokosc stopnia.
+- `int liczbaStopni()`: Zwraca liczbe stopni.
+- `void obliczSchody() const`: Oblicza wartości schodów.
 
 ---
 
