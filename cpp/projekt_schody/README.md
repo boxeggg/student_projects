@@ -7,8 +7,8 @@ Schodki
 Projekt ma na celu obliczenie maksymalnej długości pojedynczego schodka na podstawie całkowitej długości klatki schodowej oraz jej wysokości. Użytkownik podaje długość klatki schodowej oraz wysokość klatki schodowej, a program oblicza i zwraca maksymalną możliwą długość pojedynczego schodka, zakładając optymalne nachylenie schodów.
 
 ## Użycie
-1. Użytkownik wprowadza całkowitą długość oraz wysokość klatki schodowej.
-2. Program oblicza głebokość, oraz ilość stopni
+1. Użytkownik wprowadza całkowitą długość, szerokość oraz wysokość klatki schodowej.
+2. Program oblicza głebokość, wysokość oraz ilość stopni, 
 
 ## Platforma
 - Kompilator C++ (np. g++, Clang)
@@ -67,7 +67,7 @@ Klasa `KreatorKlatek` zarządza instancjami klatek schodowych (`Klatka`), umożl
 ### Metody
 - **Konstruktor domyślny** `KreatorKlatek()`: Inicjalizuje pustą kolekcję klatek schodowych.
 - `void dodajKlatke(double dlugosc, double wysokosc)`: Tworzy nowy obiekt `Klatka` z podanymi wymiarami i dodaje go do kolekcji `klatki`.
-- `void wyswietlWszystkieKlatki() const`: Wyświetla informacje o wszystkich klatkach schodowych w kolekcji, używając metody `wyswietlInformacje` każdej instancji `Klatka`.
+- `void wyswietlWszystkieKlatki() const`: Wyświetla informacje o wszystkich klatkach schodowych w kolekcji
 - `size_t liczbaKlatek() const`: Zwraca liczbę klatek schodowych przechowywanych w kolekcji `klatki`.
 
 
