@@ -10,13 +10,16 @@ Projekt ma na celu obliczenie maksymalnej długości pojedynczego schodka na pod
 1. Użytkownik wprowadza całkowitą długość oraz wysokość klatki schodowej.
 2. Program oblicza głebokość, oraz ilość stopni
 
-## Wymagania
+## Platforma
 - Kompilator C++ (np. g++, Clang)
 - Obsługa standardu C++11 lub nowszego
 
 ## Wartości przyjęte w projekcie
  **Maskymalna wysokość stopnia**:
 - Maksymalna wysokość stopnia przyjęta w projekcie to **18 cm**, co zapewnia optymalne nachylenie i ułatwia poruszanie się po schodach.
+ **Przyjęta jednostka miary**:
+- Program przyjmuje wartości w cm.
+
 
 ## Struktura projektu
 - **main.cpp**: Plik główny główną funkcję programu.
