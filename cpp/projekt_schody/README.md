@@ -15,9 +15,7 @@ Projekt ma na celu obliczenie maksymalnej długości pojedynczego schodka na pod
 - Obsługa standardu C++11 lub nowszego
 
 ## Wartości przyjęte w projekcie
- **Maskymalna wysokość stopnia**:
 - Maksymalna wysokość stopnia przyjęta w projekcie to **18 cm**, co zapewnia optymalne nachylenie i ułatwia poruszanie się po schodach.
- **Przyjęta jednostka miary**:
 - Program przyjmuje wartości w cm.
 
 
@@ -27,12 +25,12 @@ Projekt ma na celu obliczenie maksymalnej długości pojedynczego schodka na pod
 - **kreator_klatek.h**: Klasa tworząca i zarządzająca instancjami klatek schodowych
 
 
-## Założenia algorytmu
-- Tworzona jest pusta instancja generatora klatek
-- Na zawołanie użytkownika po podaniu parametrow wejsciowcyh (Z aplikacji konsolowej, lub desktopowej ) tworzy się instancja klatki
-- Klatka dopisuje się do tablicy vectorwoej klatek
-- Wypisują się wyniki (W aplikacji konsolowej)
-- Możliwość sprawdzenia historii klatek schodowych poprzez tablice klatek schodowych
+## Założenia 
+- Możliwosć tworzenia i zarządzania obiektami klatek schodowych z policzonymi wartosciami głębokości, szerokości, oraz ilości schodków
+
+
+# Testy
+- Napisane z użyciem biblioteki gtest, sprawdzają czy instancje klatek są poprawnie tworzone i usuwane, a także czy obliczenia matematyczne wychodzą zgodnie z oczekiwanym rezultatem.
 
 
 # Dokumentacja klas projektu
@@ -67,8 +65,5 @@ Klasa `KreatorKlatek` zarządza instancjami klatek schodowych (`Klatka`), umożl
 ### Metody
 - **Konstruktor domyślny** `KreatorKlatek()`: Inicjalizuje pustą kolekcję klatek schodowych.
 - `void dodajKlatke(double dlugosc, double wysokosc)`: Tworzy nowy obiekt `Klatka` z podanymi wymiarami i dodaje go do kolekcji `klatki`.
-- `void wyswietlWszystkieKlatki() const`: Wyświetla informacje o wszystkich klatkach schodowych w kolekcji
-- `size_t liczbaKlatek() const`: Zwraca liczbę klatek schodowych przechowywanych w kolekcji `klatki`.
-
 
 ---
