@@ -30,7 +30,20 @@ Projekt ma na celu obliczenie maksymalnej długości pojedynczego schodka na pod
 
 
 # Testy
-- Napisane z użyciem biblioteki gtest, sprawdzają czy instancje klatek są poprawnie tworzone i usuwane, a także czy obliczenia matematyczne wychodzą zgodnie z oczekiwanym rezultatem.
+- Napisane z użyciem biblioteki gtest, sprawdzają czy obiekty klatek są poprawnie tworzone i usuwane, a także czy obliczenia matematyczne wychodzą zgodnie z oczekiwanym rezultatem.
+
+# Przykładowe wyniki 
+
+| Wysokość klatki schodowej (cm) | Długość klatki schodowej (cm) | Liczba stopni | Wysokość stopnia (cm) | Długość stopnia (cm) |
+|--------------------------------|-------------------------------|---------------|------------------------|-----------------------|
+| 250                            | 300                           | 14            | 17,86                 | 21,43                |
+| 250                            | 400                           | 14            | 17,86                 | 28,57                |
+| 300                            | 400                           | 16            | 18,75                 | 25,00                |
+| 300                            | 500                           | 16            | 18,75                 | 31,25                |
+| 350                            | 500                           | 18            | 19,44                 | 27,78                |
+| 350                            | 600                           | 18            | 19,44                 | 33,33                |
+| 400                            | 600                           | 20            | 20,00                 | 30,00                |
+| 400                            | 700                           | 20            | 20,00                 | 35,00                |
 
 
 # Dokumentacja klas projektu
